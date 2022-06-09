@@ -1,0 +1,76 @@
+.homeSlide {
+  flex: 1 0 auto;
+}
+
+.home_subtitle {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.home_title {
+  margin-top: 60px;
+  font-size: 120px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+}
+
+.home_button {
+  position: relative;
+  margin-left: 100px;
+  padding: 40px 50px 40px 140px;
+}
+
+.home_button::before {
+  content: url('../../assets/right.svg');
+  position: absolute;
+  top: 24px;
+  left: 25px;
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  box-shadow: 3px 1px 1px #ff9ec1;
+}
+
+.transition_page-enter {
+
+}
+
+.transition_page-enter-active {
+  animation: 1c forwards fade-in;
+}
+
+.transition_page-exit {
+
+}
+
+.transition_page-exit-active {
+  animation: 1c forwards fade-out;
+}
+
+@keyframes fade-in { 
+  0% {
+    opacity: 0;
+    transform: translateX(-400px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 0;
+    transform: translateX(400px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

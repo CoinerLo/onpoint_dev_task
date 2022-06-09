@@ -1,0 +1,90 @@
+.brandSlide {
+  flex: 1 0 auto;
+  width: 70%;
+  margin-left: auto;
+}
+
+.brand_title {
+  margin-top: 100px;
+  font-size: 44px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.brand_subtitle {
+  margin: 30px 0 90px 0;
+  font-size: 144px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+}
+
+.brand_details {
+  display: flex;
+}
+
+.details_full {
+  position: relative;
+  padding: 60px;
+  background: #ffffff;
+  border-radius: 50px;
+  box-shadow: 0px 0px 100px 0px #e0e9ed;
+}
+
+.details_full img {
+  position: absolute;
+  top: -50px;
+  width: 100px;
+}
+
+.details_full p {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.details_mini {
+  margin-left: 75px;
+}
+
+.details_mini_content {
+  position: relative;
+  padding: 60px;
+  background: #ffffff;
+  border-radius: 50px;
+  box-shadow: 0px 0px 100px 0px #e0e9ed;
+}
+
+.details_mini_content p {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.details_mini_content img {
+  position: absolute;
+  top: -40px;
+  width: 100px;
+}
+
+.brand_details_btn {
+  position: relative;
+  margin-top: 60px;
+  padding: 30px 40px 30px 110px;
+}
+
+.brand_details_btn::before {
+  content: url('../../assets/304947-ffffff.svg');
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  box-shadow: 3px 1px 1px #ff9ec1;
+}

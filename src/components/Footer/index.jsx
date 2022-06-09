@@ -1,9 +1,9 @@
-const Footer = () => {
-  return (
-    <footer>
-      This is footer
-    </footer>
-  );
-}
+import './footer.css';
+
+const Footer = () => (
+  <footer className="footer">
+    <img src="logotip.png" alt="Logotip" />
+  </footer>
+);
 
 export default Footer;

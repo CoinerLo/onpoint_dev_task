@@ -1,4 +1,33 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 0 100px;
+}
+  
+.btn {
+  font-size: 42px;
+  letter-spacing: 2px;
+  background: #ff6a9f;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
 }
 
+.home_bg {
+  background-image: url('./assets/home_bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.message_bg {
+  background-image: url('./assets/message_bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.brand_bg {
+  background-image: url('./assets/brand_bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
